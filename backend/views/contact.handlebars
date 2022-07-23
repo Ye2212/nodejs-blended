@@ -1,0 +1,50 @@
+<h1>Contact page</h1>
+
+<h2>{{userName}}</h2>
+<h3>{{msg}}</h3>
+
+<!-- The above form looks like this -->
+<form method="POST" action="send">
+  <div class="row">
+    <div class="six columns">
+      <label>Your name
+        <input
+          name="name"
+          class="u-full-width"
+          type="text"
+          placeholder="Your name"
+        />
+      </label>
+      <label>Your email
+        <input
+          name="email"
+          class="u-full-width"
+          type="email"
+          placeholder="test@mailbox.com"
+        />
+      </label>
+      <label>Your phone
+        <input
+          name="phone"
+          class="u-full-width"
+          type="text"
+          placeholder="Your phone"
+        />
+      </label>
+      <label>Your password
+        <input
+          name="password"
+          class="u-full-width"
+          type="password"
+          placeholder="Your password"
+        />
+      </label>
+    </div>
+  </div>
+
+  <input class="button-primary" type="submit" value="Submit" />
+</form>
+
+<!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
